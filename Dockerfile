@@ -1,2 +1,2 @@
-MAINTAINER lrxw
 FROM mongo
+MAINTAINER lrxw
