@@ -1,3 +1,4 @@
 FROM mongo
 MAINTAINER lrxw
-RUN mongoimport --db test --collection restaurants --drop --file primer-dataset.json
+ADD primer-dataset2.json
+RUN mongoimport --db test --collection restaurants --drop --file primer-dataset2.json
